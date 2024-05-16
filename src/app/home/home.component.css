@@ -18,13 +18,33 @@
     margin: 10px;
 }
 .obj{
-    height: 200px;
-    border:solid goldenrod;
     margin-bottom: 10px;
+    background: rgba(87, 215, 215, 0.751);
+    ul{
+        margin: 15px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    h3{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
+
+.partener{
+    margin: 10px;
+    border: solid turquoise;
+    h2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+    }
 }
 .produit{
     height: 100px;
     border: solid tomato;
+    
 }
 
 .tem{
@@ -46,6 +66,7 @@
         font-size: 20px;
         text-align: center;
         width: 100%;
+        border-bottom: solid;
     }
 }
 
