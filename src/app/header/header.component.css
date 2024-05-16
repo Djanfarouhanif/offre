@@ -1,0 +1,13 @@
+.content{
+    border: solid blue;
+    display:flex;
+    justify-content: space-between;
+}
+
+.connect{
+    margin:20px ;
+
+    a{
+        margin-left: 20px;
+    }
+}
