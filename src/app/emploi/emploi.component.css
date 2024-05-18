@@ -26,6 +26,21 @@ h2{
 
 .all-emploi{
     border-bottom:1px solid rgba(87, 215, 215, 0.751);
-    
     margin: 20px;
+    
+}
+
+.all-emploi::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button{
+    background-color: #3ac4584b;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    float:right;
 }
