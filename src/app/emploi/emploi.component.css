@@ -1,0 +1,31 @@
+
+
+.header{
+    border-bottom: solid;
+    margin-bottom: 10px;
+    h4{
+        font-weight: bold;
+        font-size: 25px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.info{
+    box-shadow: 0px 0px 4px 1px;
+    margin-right: 10px;
+}
+h2{
+    font-weight: bold;
+    
+}
+
+.all-emploi{
+    border-bottom:1px solid rgba(87, 215, 215, 0.751);
+    
+    margin: 20px;
+}
