@@ -1,0 +1,135 @@
+.contener{
+    margin: 40px;
+    box-shadow: 0 0 4px ;
+    display: grid;
+    grid-template-columns: 70% auto;
+    border-radius: 10px;
+}
+
+
+.post{
+   
+    box-shadow: 0 0 4px ;
+    margin: 10px;
+    border-radius: 10px ;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    color: #3ac458f9;
+    margin: 10px;
+}
+form{
+    margin: 20px;
+}
+
+label{
+    font-size: large;
+}
+.input{
+    box-shadow: 0 0 4px;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    margin: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.input:hover{
+    box-shadow: 0 0 4px #3ac458f9;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.description{
+    box-shadow: 0 0 4px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    margin: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    min-height: 300px;
+    outline: none;
+}
+.description:hover{
+    box-shadow: 0 0 4px #3ac458f9;
+    transition: all 0.5s ease-in-out; 
+}
+
+.number{
+    box-shadow: 0 0 4px ;
+    width: 90px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+    padding: 5px;
+}
+.number input{
+    width: 100%;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.number:hover{
+    box-shadow: 0 0 4px #3ac458f9;
+    transition: all 0.5s ease-in-out;
+}
+.profile{
+    box-shadow: 0 0 4px ;
+    margin: 10px;
+    border-radius: 10px;
+    max-height: 400px;
+}
+.button{
+    box-shadow: 0 0 4px ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3ac458f9;
+    transition: transform .5s ease-in-out;
+}
+button{
+    width: 100%;
+    font-weight: bolder;
+}
+
+.button:hover{
+    transform: scale(1.01);
+    transition: transform 0.5s ease-in-out;
+}
+.image{
+    width: 150px;
+    margin: 10px;
+    box-shadow: 0 0 4px;
+}
+
+h5{
+    margin: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+
+@media screen and (max-width:900px){
+    
+
+    .contener{
+        grid-template-columns: auto;
+    }
+    .profile{
+        
+        order: 1;
+    }
+    .post{
+        order: 2;
+    }
+}
