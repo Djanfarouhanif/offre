@@ -1,14 +1,17 @@
 <div class="navBar">
     <div class="nav">
         <ul>
-            <li>Post</li>
-            <li>Messagerie</li>
+            <li (click)="setView('post')">Post</li>
+            <li (click)="setView('messagerie')">Messagerie</li>
         </ul>
     </div>
 </div>
 <div class="contener">
 
-    <div class="post">
+<!-- messagerie post -->
+    <app-message-post *ngIf="currentView === 'messagerie'"></app-message-post>
+<!-- Fin  -->
+    <div class="post" *ngIf="currentView === 'post'">
         <h1>Envoyez un post pour le Recruter</h1>
         <div class="formular">
             <form action="post">
