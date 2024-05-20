@@ -15,6 +15,7 @@ import { CommonModule } from '@angular/common';
 
 export class PostProfileComponent {
   currentView:string = 'post';
+
   setView(view:string): void {
     this.currentView = view
   }
