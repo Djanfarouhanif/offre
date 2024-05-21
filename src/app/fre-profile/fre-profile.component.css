@@ -33,3 +33,17 @@ h5{
     border-radius: 10px;
 
 }
+
+
+@media screen and (max-width:700px){
+   .contener{
+    grid-template-columns: auto;
+
+   }
+   .profile{
+    order: 1;
+   }
+   .message{
+    order: 2;
+   }
+}

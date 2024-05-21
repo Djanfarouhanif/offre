@@ -1,7 +1,9 @@
 .content{
-    border: solid blue;
+    border:1px solid rgb(16, 16, 18);
     display:flex;
     justify-content: space-between;
+    margin: 20px;
+    border-radius: 40px;
 }
 
 .connect{
@@ -11,3 +13,4 @@
         margin-left: 20px;
     }
 }
+
