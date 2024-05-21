@@ -1,5 +1,21 @@
 
+.profile{
+    box-shadow: 0 0 4px ;
+    margin: 10px;
+    border-radius: 10px;
+    max-height: 400px;
+}
+.image{
+    width: 150px;
+    margin: 10px;
+    box-shadow: 0 0 4px;
+}
 
+h5{
+    margin: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
 .header{
     border-bottom: solid;
     margin-bottom: 10px;
