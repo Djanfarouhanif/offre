@@ -11,8 +11,8 @@ export const routes: Routes = [
     {path: '', redirectTo: '/home',pathMatch:'full'},
     {path: 'home', component: HomeComponent},
     {path: 'contact', component: ConactComponent},
-    {path: 'emploi', component:EmploiComponent},
-    {path: 'post-detaille', component: PostDetailleComponent},
+    {path: 'travail', component:EmploiComponent},
+    {path: 'post-detail', component: PostDetailleComponent},
     {path: 'post-profile', component: PostProfileComponent},
     {path: 'fre_profile', component:FreProfileComponent}
 

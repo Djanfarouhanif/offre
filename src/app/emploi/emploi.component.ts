@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-emploi',
@@ -10,4 +11,9 @@ import { HeaderComponent } from '../header/header.component';
 })
 export class EmploiComponent {
 
+    constructor(private route:Router){}
+
+    navigatePage(){
+      this.route.navigate(['/post-detail'])
+    }
 }
