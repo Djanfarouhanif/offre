@@ -124,10 +124,35 @@
 
 @media screen and (max-width: 800px){
     .profile{
-       
+        
         p{
             
             width: 100%;
         }
     }
+}
+
+@media screen and (max-width:600px) {
+    .contener-all{
+        grid-template-columns: auto;
+        
+    }
+    .body{
+        order:2
+    }
+    .tem{
+        min-height: 300px;
+        li{
+            font-size: 16px;
+        }
+    }
+
+    .avis{
+        grid-template-columns: auto;
+        .img{
+            width: 100px;
+        }
+    }
+
+
 }
