@@ -1,0 +1,156 @@
+
+.content{
+    display: grid;
+    grid-template-columns: 70% auto;
+    box-shadow: 0 0 4px ;
+    border-radius: 10px;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(183, 0, 255);
+    
+}
+
+.info{
+    box-shadow: 0 0 4px ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.profile{
+    box-shadow: 0 0 4px ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.form{
+    margin: 20px;
+    box-shadow: 0 0 4px rgb(183, 0, 255);
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(183, 0, 255, 0.1);
+}
+.first{
+    
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    label{
+        width: 100%;
+    }
+    input{
+        box-shadow: 0 0 4px;
+        width: 50%;
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        
+    }
+}
+
+label{
+    margin: 10px 0 10px 0;
+    color:rgb(183, 0, 255) ;
+}
+
+.last{
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    label{
+        width: 100%;
+    }
+    input{
+        box-shadow: 0 0 4px;
+        width: 50%;
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        
+    }
+
+}
+
+.adress{
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    label{
+        width: 100%;
+    }
+    input{
+        box-shadow: 0 0 4px;
+        width: 50%;
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        
+    }
+}
+
+.age{
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    label{
+        width: 100%;
+    }
+    input{
+        box-shadow: 0 0 4px;
+        width: 50%;
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        
+    }
+}
+
+button{
+    color: white;
+    background: rgb(183, 0, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.profile-image{
+    width: 20%;
+    border: 1px solid rgb(183, 0, 255);
+    margin: 10px;
+    
+}
+
+.image-file{
+    width: 100%;
+    margin: 10px;
+    input{
+        width: 70%;
+    }
+}
+
+@media screen  and (max-width:700px){
+    .content{
+        grid-template-columns: auto;
+    }
+    .profile{
+        order: 1;
+    }
+    .info{
+        order: 2;
+    }
+}
