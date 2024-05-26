@@ -32,9 +32,7 @@ export class ProfileComponent implements OnInit {
 
   onSubmit(form:any){
     if(form.valid){
-      
-      this.newPage();
-      
+      this.newPage()
     }
     else{
       alert("form is not valid")
