@@ -15,7 +15,8 @@ export const routes: Routes = [
     {path: 'post-detail', component: PostDetailleComponent},
     {path: 'post-profile', component: PostProfileComponent},
     {path: 'fre_profile', component:FreProfileComponent},
-    { path: 'profile', component: ProfileComponent}
+    { path: 'freelincing_profile', component: ProfileComponent},
+    { path: 'profile', component:ProfileComponent}
 
 ];
 

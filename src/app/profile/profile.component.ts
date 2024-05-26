@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { HeaderComponent } from '../header/header.component';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+
+
 @Component({
   selector: 'app-profile',
   standalone: true,
@@ -9,10 +11,18 @@ import { Router } from '@angular/router';
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css'
 })
-export class ProfileComponent {
-    constructor(private route:Router){}
+export class ProfileComponent implements OnInit {
+  profileId: string = "";
+    constructor(private route:Router, private url:ActivatedRoute ){}
 
     newPage():void{
         this.route.navigate(["/fre_profile"])
+    }
+
+    ngOnInit(): void {
+      this.url.url.subscribe(urlSegments =>{
+        this.profileId = urlSegments.join('/');
+        console.log(this.profileId);
+      })
     }
 }
