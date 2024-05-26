@@ -6,11 +6,12 @@
         <ul>
             <li (click)="setView('post')">Post</li>
             <li (click)="setView('message')">Messagerie</li>
+            <li (click)="setView('profile')">Profile</li>
         </ul>
     </div>
 </div>
-
-<div class="contener">
+<app-profile *ngIf="current === 'profile' "></app-profile>
+<div class="contener" *ngIf="current !== 'profile' ">
 <div class="message" *ngIf="current === 'post' ">
     <div class="message1">
         <h4>Title de la post envoyer</h4>

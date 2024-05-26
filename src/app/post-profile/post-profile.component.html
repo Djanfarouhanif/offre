@@ -5,10 +5,12 @@
         <ul>
             <li (click)="setView('post')">Post</li>
             <li (click)="setView('messagerie')">Messagerie</li>
+            <li (click)="setView('profile')">Profille</li>
         </ul>
     </div>
 </div>
-<div class="contener">
+<app-profile *ngIf="currentView ==='profile' "></app-profile>
+<div class="contener" *ngIf="currentView !== 'profile' ">
 
 <!-- messagerie post -->
     <app-message-post *ngIf="currentView === 'messagerie'"></app-message-post>
