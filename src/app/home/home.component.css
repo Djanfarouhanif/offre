@@ -1,3 +1,19 @@
+.mode{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.cf {
+    width: 100%;
+    p{
+        font-size: 100px;
+    }
+    
+}
+button{
+    text-align: center;
+}
+
 .contener-all{
    
     box-shadow: 0 0 4px ;

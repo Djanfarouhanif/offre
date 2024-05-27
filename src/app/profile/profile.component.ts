@@ -14,8 +14,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './profile.component.css'
 })
 export class ProfileComponent implements OnInit {
-  profileId: string|undefined;
-  url: string|undefined;
+  profileId: string="";
+  url: string="";
 
     constructor(private router:Router, private route:ActivatedRoute ){}
 
