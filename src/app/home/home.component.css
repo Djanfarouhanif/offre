@@ -1,18 +1,32 @@
 .mode{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     margin: 20px;
+    
 }
+
 .cf {
-    width: 100%;
+    
     p{
         font-size: 100px;
+        max-width: 600px;
     }
     
 }
-button{
-    text-align: center;
+.button{
+    display: flex;
+    justify-content: center;
 }
+button{
+        position: relative;
+        color: white;
+        background: rgb(183, 0, 255);
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        align-items: center;
+        width: 200px;
+}
+ 
+
 
 .contener-all{
    
