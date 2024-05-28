@@ -26,7 +26,6 @@ export class ProfileComponent implements OnInit {
       console.log(this.profileId);
     });
 
-   
   }
   //verifier si le formulaire est valide
 
