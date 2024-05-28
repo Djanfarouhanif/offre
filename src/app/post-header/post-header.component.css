@@ -1,0 +1,33 @@
+.content{
+    border:1px solid rgb(16, 16, 18);
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.connect{
+    margin:20px ;
+
+    a{
+        margin-left: 20px;
+    }
+}
+
+.navBar{
+    margin-left: 20px;
+    
+}
+
+li{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+    transition: all .5s ease-in-out;
+}
+
+li:hover{
+    border-bottom:1px  solid rgb(171, 12, 166);
+    transition: all .5s ease-in-out;
+}

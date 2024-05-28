@@ -4,10 +4,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from '../header/header.component'
 import { ProfileComponent } from '../profile/profile.component';
+import { PostHeaderComponent } from '../post-header/post-header.component';
 @Component({
   selector: 'app-post-profile',
   standalone: true,
-  imports: [ MessagePostComponent, CommonModule , HeaderComponent, ProfileComponent],
+  imports: [ MessagePostComponent, CommonModule , PostHeaderComponent, ProfileComponent],
   templateUrl: './post-profile.component.html',
   styleUrl: './post-profile.component.css' 
 })

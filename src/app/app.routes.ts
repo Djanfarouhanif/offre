@@ -7,6 +7,7 @@ import { PostDetailleComponent } from './post-detaille/post-detaille.component';
 import { PostProfileComponent } from './post-profile/post-profile.component';
 import { FreProfileComponent } from './fre-profile/fre-profile.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SearchFreComponent } from './search-fre/search-fre.component';
 export const routes: Routes = [
     {path: '', redirectTo: '/home',pathMatch:'full'},
     {path: 'home', component: HomeComponent},
@@ -16,7 +17,8 @@ export const routes: Routes = [
     {path: 'post-profile', component: PostProfileComponent},
     {path: 'fre_profile', component:FreProfileComponent},
     { path: 'freelincing_profile', component: ProfileComponent},
-    { path: 'profile', component:ProfileComponent}
+    { path: 'profile', component:ProfileComponent},
+    {path: 'search', component:SearchFreComponent}
 
 ];
 
