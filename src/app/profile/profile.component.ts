@@ -16,7 +16,12 @@ import { FormsModule } from '@angular/forms';
 export class ProfileComponent implements OnInit {
   profileId: string="";
   url: string="";
-
+  model = {
+    firstName: '',
+    lastName: '',
+    adress: '',
+    birthDate: ''
+  }
     constructor(private router:Router, private route:ActivatedRoute ){}
 
   // initialisations 
@@ -31,7 +36,7 @@ export class ProfileComponent implements OnInit {
 
   onSubmit(form:any){
     if(form.valid){
-      this.newPage()
+      this.newPage();
     }
     else{
       alert("form is not valid")
@@ -40,10 +45,10 @@ export class ProfileComponent implements OnInit {
 
     newPage():void{
       if( this.profileId === "freelincing_profile"){
-        this.router.navigate(["/fre_profile"])
+        this.router.navigate(["/fre_profile"]);
       }
       else if(this.profileId === "profile"){
-        this.router.navigate(['/post-profile'])
+        this.router.navigate(['/post-profile']);
       }
 
     }
