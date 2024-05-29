@@ -9,7 +9,18 @@
         </ul>
     </div>
 </div>
-<app-profile *ngIf="currentView ==='profile' "></app-profile>
+<div class="update" *ngIf="currentView === 'profile' ">
+    <div class="update-contener">
+        <div class="update-content">
+            <div class="update-info">
+                <p>salu</p>
+            </div>
+            <div class="update-profile">
+                <p>salut</p>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="contener" *ngIf="currentView !== 'profile' ">
 
 <!-- messagerie post -->

@@ -14,7 +14,7 @@ import { PostHeaderComponent } from '../post-header/post-header.component';
 })
 
 export class PostProfileComponent {
-  currentView:string = 'post';
+  currentView:string = 'profile';
 
   setView(view:string): void {
     this.currentView = view

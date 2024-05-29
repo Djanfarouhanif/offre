@@ -7,22 +7,22 @@
                 <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
                     <div class="first">
                         <label for="first">Nom</label>
-                        <input type="text" name="firstName" placeholder="First Name" [(ngModel)]="model.firstName" required>
+                        <input type="text" name="firstName" placeholder="First Name" [(ngModel)]="model.firstName" >
                     </div>
                     <div class="last">
                         <label for="last">Prenoms</label>
-                        <input type="text" name="lastName" placeholder="last Name" [(ngModel)]="model.lastName" required>
+                        <input type="text" name="lastName" placeholder="last Name" [(ngModel)]="model.lastName" >
                     </div>
                     <div class="adress">
                         <label for="adress">Adress</label>
-                        <input type="text" name="adress" placeholder="Kara\abouda" [(ngModel)]="model.adress" required>
+                        <input type="text" name="adress" placeholder="Kara\abouda" [(ngModel)]="model.adress" >
                     </div>
                     <div class="age">
                         <label for="age">Date de naissance</label>
-                        <input type="date" name="birthDate" placeholder="date" [(ngModel)]="model.birthDate" required="">
+                        <input type="date" name="birthDate" placeholder="date" [(ngModel)]="model.birthDate" required>
                     </div>
                     
-                    <button type="submit" [disabled]="myForm.invalid">Enregistre</button>
+                    <button type="submit" >Enregistre</button>
                 </form>
             </div>
         </div>

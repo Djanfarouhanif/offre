@@ -147,6 +147,28 @@ h5{
     border-bottom: 1px solid;
 }
 
+/* update  */
+.update{
+    margin: 20px;
+    box-shadow: 0 0 4px ;
+    border-radius: 10px;
+    
+}
+.update-content{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.update-info{
+    margin: 10px;
+    box-shadow: 0 0 4px;
+    border-radius: 10px;
+}
+.update-profile{
+    margin: 10px;
+    box-shadow: 0 0 4px;
+    border-radius: 10px;
+
+}
 
 @media screen and (max-width:900px){
     
@@ -160,5 +182,15 @@ h5{
     }
     .post{
         order: 2;
+    }
+
+    .update-content{
+        grid-template-columns: auto;
+    }
+    .update-info{
+        order: 2;
+    }
+    .update-profile{
+        order: 1;
     }
 }
