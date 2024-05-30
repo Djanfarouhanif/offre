@@ -29,7 +29,7 @@ li{
     transition: all .5s ease;
 }
 li:hover{
-    background-color: #3ac458f9;
+    background-color: rgb(171, 12, 166);
     transition: all .5s ease;
  
 
@@ -46,7 +46,7 @@ h1{
     font-weight: bold;
     text-align: center;
     font-size: large;
-    color: #3ac458f9;
+    color: rgb(171, 12, 166);
     margin: 10px;
 }
 form{
@@ -70,7 +70,7 @@ input{
     outline: none;
 }
 .input:hover{
-    box-shadow: 0 0 4px #3ac458f9;
+    box-shadow: 0 0 4px rgb(171, 12, 166);
     transition: all 0.5s ease-in-out;
 }
 
@@ -89,7 +89,7 @@ textarea{
     outline: none;
 }
 .description:hover{
-    box-shadow: 0 0 4px #3ac458f9;
+    box-shadow: 0 0 4px rgb(171, 12, 166);
     transition: all 0.5s ease-in-out; 
 }
 
@@ -123,17 +123,18 @@ textarea{
     box-shadow: 0 0 4px ;
     padding: 10px;
     border-radius: 10px;
-    background-color: #3ac458f9;
-    transition: transform .5s ease-in-out;
+    background: rgba(171, 12, 166, .6);
+    transition: all .5s ease-in-out;
 }
 button{
     width: 100%;
     font-weight: bolder;
+    color: #fff;
 }
 
 .button:hover{
-    transform: scale(1.01);
-    transition: transform 0.5s ease-in-out;
+    background: rgb(171, 12, 166);
+    transition: all 0.5s ease-in-out;
 }
 .image{
     width: 150px;
@@ -169,6 +170,36 @@ h5{
     border-radius: 10px;
 
 }
+.up-if{
+    textarea{
+        box-shadow: 0 0 4px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    
+    input{
+        box-shadow: 0 0 4px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    button{
+        box-shadow: 0 0 4px;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        background: rgba(171, 12, 166, .6);
+        color: #fff;
+        transition: all .5s ease-in-out;
+    }
+    button:hover{
+        background: rgb(171, 12, 166);
+        transition: all .5s ease-in-out;
+    }
+}
+
+
 
 @media screen and (max-width:900px){
     
