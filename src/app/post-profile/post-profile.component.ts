@@ -12,7 +12,7 @@ import { PostHeaderComponent } from '../post-header/post-header.component';
   templateUrl: './post-profile.component.html',
   styleUrl: './post-profile.component.css' 
 })
-
+// ESS
 export class PostProfileComponent {
   currentView:string = 'profile';
 
